@@ -1,507 +1,321 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>AntonioPO Portfolio</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+<html lang="es">
 
-          <!-- Aquí agregamos el bloque de estilos -->
-          <style>
-            .masthead {
-                background-color: #112a32; /* El color que desees */
-            }
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description"
+        content="Antonio Povedano Ortiz — Desarrollador y diseñador de videojuegos. Portfolio de proyectos en C++, Unity, Android y más." />
+    <meta name="author" content="Antonio Povedano Ortiz" />
+    <title>Antonio Povedano Ortiz | Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Syne:wght@600;700;800&display=swap"
+        rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
+</head>
 
-            /* O si quieres cambiar el color de fondo de toda la página */
-            body {
-                background-color: #f0f0f0; /* Color de fondo de toda la página */
-            }
-        </style>
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand" href="#page-top">INICIO</a>
-                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">PORTFOLIO</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">SOBRE MI</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">CONTACTO</a></li>
-                    </ul>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">A. Povedano</a>
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#portfolio">Proyectos</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Sobre
+                            mí</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead bg-primary text-white text-center">
+        <div class="hero-bg" aria-hidden="true">
+            <div class="hero-bg-mesh"></div>
+            <div class="hero-grid-lines"></div>
+            <div class="hero-orb hero-orb-1"></div>
+            <div class="hero-orb hero-orb-2"></div>
+            <div class="hero-orb hero-orb-3"></div>
+        </div>
+        <div class="container d-flex align-items-center flex-column">
+            <span class="hero-badge"><i class="fas fa-bolt" aria-hidden="true"></i> Desarrollo de videojuegos</span>
+            <h1 class="masthead-heading mb-0">Antonio Povedano Ortiz</h1>
+            <div class="divider-custom divider-light my-3">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-gamepad"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <p class="masthead-subheading mb-0">Desarrollador y diseñador de videojuegos · Programación con C#, C++,
+                Java y Python · Unity, Android Studio, Unreal Engine y motores propios</p>
+            <a class="btn-hero-outline" href="#portfolio">Ver proyectos <i class="fas fa-arrow-down"
+                    aria-hidden="true"></i></a>
+        </div>
+    </header>
+    <!-- Portfolio Section-->
+    <section class="page-section portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="page-section-heading text-center text-secondary mb-0">Proyectos</h2>
+            <p class="text-center portfolio-lead mx-auto mt-2 mb-4">Algunos de mis proyectos como motores, juegos móviles, herramientas en Unity.</p>
+            <div class="divider-custom mb-4">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-grip-lines-vertical"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <p class="projects-hint text-center mb-4"><i class="fas fa-hand-pointer" aria-hidden="true"></i> Toca cada
+                bloque para ver la ficha completa</p>
+            <div class="projects-strips px-2 px-md-3">
+                <article class="project-strip reveal" data-bs-toggle="modal" data-bs-target="#portfolioModal1"
+                    role="button" tabindex="0" aria-label="Ver Motor Flamingo">
+                    <span class="project-strip__index" aria-hidden="true">01</span>
+                    <div class="project-strip__media" data-index="01">
+                        <img src="assets/img/portfolio/flamingo.png" alt="" />
+                        <div class="project-strip__media-overlay"><span>Abrir</span><i class="fas fa-expand-alt"
+                                aria-hidden="true"></i></div>
+                    </div>
+                    <div class="project-strip__body">
+                        <h3 class="project-strip__title">Motor Flamingo</h3>
+                        <p class="project-strip__desc">Motor 3D en C++ · Eldersbane</p>
+                        <div class="project-strip__tags"><span>C++</span><span>Ogre</span><span>Bullet</span></div>
+                    </div>
+                </article>
+                <article class="project-strip reveal" data-bs-toggle="modal" data-bs-target="#portfolioModal2"
+                    role="button" tabindex="0">
+                    <span class="project-strip__index" aria-hidden="true">02</span>
+                    <div class="project-strip__media" data-index="02">
+                        <img src="assets/img/portfolio/mastermind.png" alt="" />
+                        <div class="project-strip__media-overlay"><span>Abrir</span><i class="fas fa-expand-alt"
+                                aria-hidden="true"></i></div>
+                    </div>
+                    <div class="project-strip__body">
+                        <h3 class="project-strip__title">Mastermind</h3>
+                        <p class="project-strip__desc">Android Studio · acelerómetro y partidas</p>
+                        <div class="project-strip__tags"><span>Android</span><span>Java</span></div>
+                    </div>
+                </article>
+                <article class="project-strip reveal" data-bs-toggle="modal" data-bs-target="#portfolioModal3"
+                    role="button" tabindex="0">
+                    <span class="project-strip__index" aria-hidden="true">03</span>
+                    <div class="project-strip__media" data-index="03">
+                        <img src="assets/img/portfolio/tracker.png" alt="" />
+                        <div class="project-strip__media-overlay"><span>Abrir</span><i class="fas fa-expand-alt"
+                                aria-hidden="true"></i></div>
+                    </div>
+                    <div class="project-strip__body">
+                        <h3 class="project-strip__title">Mapas 3D y accesibilidad</h3>
+                        <p class="project-strip__desc">Bots en Unity · mapas de calor</p>
+                        <div class="project-strip__tags"><span>Unity</span><span>Bots</span></div>
+                    </div>
+                </article>
+                <article class="project-strip reveal" data-bs-toggle="modal" data-bs-target="#portfolioModal4"
+                    role="button" tabindex="0">
+                    <span class="project-strip__index" aria-hidden="true">04</span>
+                    <div class="project-strip__media" data-index="04">
+                        <img src="assets/img/portfolio/monkeyDelivery.png" alt="" />
+                        <div class="project-strip__media-overlay"><span>Abrir</span><i class="fas fa-expand-alt"
+                                aria-hidden="true"></i></div>
+                    </div>
+                    <div class="project-strip__body">
+                        <h3 class="project-strip__title">Monkey Delivery</h3>
+                        <p class="project-strip__desc">SDL · repartos en la isla</p>
+                        <div class="project-strip__tags"><span>C++</span><span>SDL</span></div>
+                    </div>
+                </article>
+                <article class="project-strip reveal" data-bs-toggle="modal" data-bs-target="#portfolioModal5"
+                    role="button" tabindex="0">
+                    <span class="project-strip__index" aria-hidden="true">05</span>
+                    <div class="project-strip__media" data-index="05">
+                        <img src="assets/img/portfolio/FMOD.png" alt="" />
+                        <div class="project-strip__media-overlay"><span>Abrir</span><i class="fas fa-expand-alt"
+                                aria-hidden="true"></i></div>
+                    </div>
+                    <div class="project-strip__body">
+                        <h3 class="project-strip__title">Bird Season</h3>
+                        <p class="project-strip__desc">Unity · estados · audio FMOD</p>
+                        <div class="project-strip__tags"><span>Unity</span><span>FMOD</span><span>IA</span></div>
+                    </div>
+                </article>
+                <article class="project-strip reveal" data-bs-toggle="modal" data-bs-target="#portfolioModal6"
+                    role="button" tabindex="0">
+                    <span class="project-strip__index" aria-hidden="true">06</span>
+                    <div class="project-strip__media" data-index="06">
+                        <img src="assets/img/portfolio/ship.png" alt="" />
+                        <div class="project-strip__media-overlay"><span>Abrir</span><i class="fas fa-expand-alt"
+                                aria-hidden="true"></i></div>
+                    </div>
+                    <div class="project-strip__body">
+                        <h3 class="project-strip__title">Battle Ship en línea</h3>
+                        <p class="project-strip__desc">Multijugador en C · Linux</p>
+                        <div class="project-strip__tags"><span>C</span><span>Linux</span></div>
+                    </div>
+                </article>
+                <article class="project-strip reveal" data-bs-toggle="modal" data-bs-target="#portfolioModal7"
+                    role="button" tabindex="0">
+                    <span class="project-strip__index" aria-hidden="true">07</span>
+                    <div class="project-strip__media" data-index="07">
+                        <img src="assets/img/portfolio/ps5.png" alt="" />
+                        <div class="project-strip__media-overlay"><span>Abrir</span><i class="fas fa-expand-alt"
+                                aria-hidden="true"></i></div>
+                    </div>
+                    <div class="project-strip__body">
+                        <h3 class="project-strip__title">PS5 y PC</h3>
+                        <p class="project-strip__desc">Motor multiplataforma</p>
+                        <div class="project-strip__tags"><span>Motor</span><span>Consola</span></div>
+                    </div>
+                </article>
+                <article class="project-strip reveal" data-bs-toggle="modal" data-bs-target="#portfolioModal8"
+                    role="button" tabindex="0">
+                    <span class="project-strip__index" aria-hidden="true">08</span>
+                    <div class="project-strip__media" data-index="08">
+                        <img src="assets/img/portfolio/tuerca.png" alt="" />
+                        <div class="project-strip__media-overlay"><span>Abrir</span><i class="fas fa-expand-alt"
+                                aria-hidden="true"></i></div>
+                    </div>
+                    <div class="project-strip__body">
+                        <h3 class="project-strip__title">Gamificación y salud</h3>
+                        <p class="project-strip__desc">TFG · Spring · MongoDB · sensores</p>
+                        <div class="project-strip__tags"><span>Spring</span><span>MongoDB</span></div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- About Section-->
+    <section class="page-section bg-primary text-white mb-0" id="about">
+        <div class="container">
+            <p class="section-eyebrow">Perfil</p>
+            <h2 class="page-section-heading text-center text-white mb-0">Sobre mí</h2>
+            <div class="divider-custom divider-light my-3">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-user"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <p class="about-intro lead">Graduado en Desarrollo de Videojuegos. Busco seguir
+                formándome y aportar en equipos que valoren el código limpio y la creatividad técnica. Actualmente me encuentro cursando el máster en Diseño y desarrollo de videojuegos en la Universidad de Complutense de Madrid.</p>
+            <div class="about-grid">
+                <div class="about-block">
+                    <h3>Formación técnica</h3>
+                    <p class="lead">Me centro en programación con <strong>C#, C++, Java y Python</strong>. Gran parte
+                        de mis proyectos han sido desarrollados en <strong>Unity</strong>, <strong>Android Studio</strong> o motores y
+                        herramientas propias en C++.</p>
+                </div>
+                <div class="about-block">
+                    <h3>Cómo trabajo</h3>
+                    <p class="lead">Me motivan los retos nuevos y adaptarme a lo que pida cada proyecto. El diseño y la
+                        dirección de experiencia de juego son áreas en las que quiero seguir creciendo.</p>
                 </div>
             </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead bg-primary text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
-                <style>
-                    .masthead-heading {
-                        margin-top: 20px; /* Ajusta el valor según lo que necesites */
-                    }
-                </style>
-            
-                <h1 class="masthead-heading text-uppercase mb-0">ANTONIO POVEDANO ORTIZ</h1>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Desarrollador / Diseñador de videojuegos | Programador</p>
-            </div>
-        </header>
-        <!-- Portfolio Section-->
-        <section class="page-section portfolio" id="portfolio">
-            <div class="container">
-                <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">PORTFOLIO</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Grid Items-->
-                <div class="row justify-content-center">
-                    <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/flamingo.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/mastermind.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 3-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/tracker.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 4-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/monkeyDelivery.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 5-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/FMOD.png" alt="..." />
-                        </div>
-                    </div>
-                   
-                    <div class="col-md-6 col-lg-4">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/ship.png" alt="..." />
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mt-5 ">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal7">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/ps5.png" alt="Proyecto 7" />
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mt-5 ">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal8">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/tuerca.jpg" alt="Proyecto 7" />
-                        </div>
-                    </div>
-                                   
+            <div class="skill-pills">
+                <span class="skill-pill">C++</span>
+                <span class="skill-pill">C#</span>
+                <span class="skill-pill">Unity</span>                
+                <span class="skill-pill">Unreal Engine</span>
+                <span class="skill-pill">Android Studio</span>
+                <span class="skill-pill">GitHub</span>
+                <span class="skill-pill">Perforce</span>
 
-               
-                        <!--
-                     <div class="col-md-6 col-lg-4 mt-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal7">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/ship.png" alt="Proyecto 7" />
-                        </div>
-                    </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section-->
+    <section class="page-section" id="contact">
+        <div class="container">
+            <p class="section-eyebrow">Hablemos</p>
+            <h2 class="page-section-heading text-center text-secondary mb-0">Contacto</h2>
+            <div class="divider-custom my-3">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-paper-plane"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <div class="contact-card">
+                <p>Si quieres comentar un proyecto, una colaboración o una oportunidad laboral, escríbeme por correo o
+                    llámame.</p>
+                <div class="contact-actions">
+                    <a class="btn-contact btn-contact-primary" href="mailto:antoniopove2002@gmail.com"><i
+                            class="fas fa-envelope" aria-hidden="true"></i> antoniopove2002@gmail.com</a>
+                    <a class="btn-contact btn-contact-ghost" href="tel:+34699649635"><i class="fas fa-phone"
+                            aria-hidden="true"></i> 699 649 635</a>
                 </div>
             </div>
-        </section>
-        <!-- About Section-->
-        <section class="page-section bg-primary text-white mb-0" id="about">
-            <div class="container">
-                <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">SOBRE MI</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
+        </div>
+    </section>
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row justify-content-center align-items-start g-4">
+                <div class="col-md-6 col-lg-5 mb-md-0">
+                    <h4 class="mb-3">Contacto</h4>
+                    <p class="lead mb-2"><a href="mailto:antoniopove2002@gmail.com">antoniopove2002@gmail.com</a></p>
+                    <p class="lead mb-0"><a href="tel:+34699649635">+34 699 649 635</a></p>
                 </div>
-                <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">Soy un estudiante de último año en el Grado de Desarrollo de Videojuegos, que busca oportunidades para seguir formandose y aprender. Actualmente me centro en el campo de la programación con conocimientos en lenguajes como C, C#, C++, Java y Phyton entre otros. Además de que muchos de los proyectos han sido diseñados en programas como Unity o Android Studio.</p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">Soy una persona que le encanta enfrentarse a nuevos retos y capacitada para adaptarse a los proyectos. También me fascina el campo del diseño en el cual aumentaré mis conocimientos en los proximos años.</p></div>
-                </div>
-                <!-- About Section Button-->
-            </div>
-        </section>
-        <!-- Contact Section-->
-       <!-- <section class="page-section" id="contact">
-            <div class="container">
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">CONTACTO</h2>
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 col-xl-7">
-                       
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                <label for="name">Full name</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">Email address</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                           
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
-                        </form>
-                    </div>
+                <div class="col-md-6 col-lg-5">
+                    <h4 class="mb-3">GitHub</h4>
+                    <a class="github-link-btn" href="https://github.com/AntonioPove" target="_blank"
+                        rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> Ver perfil en
+                        GitHub</a>
                 </div>
             </div>
-        </section> -->
-        <!-- Footer-->
-        <footer class="footer text-center">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <!-- Footer Location-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">contacto</h4>
-                        <p class="lead mb-0">
-                            antoniopove2002@gmail.com
-
-                            <br />
-                            699 64 96 35
-                        </p>
-                    </div>
-                    <!-- Footer Social Icons-->
-                   <!-- <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
-                    </div> -->
-                    <!-- Footer About Text-->
-                    <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">GITHUB</h4>
-                        <!-- Enlace envolviendo la imagen -->
-                        <a href="https://github.com/AntonioPove?tab=overview&from=2024-11-01&to=2024-11-12" target="_blank">
-                            <!-- Imagen que al hacer clic llevará al enlace -->
-                            <img src="assets/img/portfolio/github.png" alt="GitHub" class="img-fluid w-25"> <!-- Ajustar a 25% del tamaño original -->
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Copyright Section-->
-        <!--<div class="copyright py-4 text-center text-white">
+        </div>
+    </footer>
+    <!-- Copyright Section-->
+    <!--<div class="copyright py-4 text-center text-white">
             <div class="container"><small>Copyright &copy; Your Website 2023</small></div>
         </div> -->
-        <!-- Portfolio Modals-->
-        <!-- Portfolio Modal 1-->
-      <!-- Portfolio Modal 1-->
-<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
-    <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-            <div class="modal-header border-0">
-                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body text-center pb-5">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">MOTOR FLAMINGO</h2>
-                            <div class="divider-custom">
-                                <div class="divider-custom-line"></div>
-                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                <div class="divider-custom-line"></div>
-                            </div>
-                            <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Eldersbane.png" alt="..." />
-                            <p class="mb-4"><strong>Flamingo</strong> es un motor diseñado para la creación de videojuegos en 3D. Esta desarrollado con C++ y usa bibliotecas como <strong>Ogre</strong> para el renderizado gráfico, <strong>Bullet</strong> para la física, <strong>LUA</strong> para scripting y <strong>SDL</strong> entre otros. A partir de este motor fue desarrollado el juego <strong>Eldersbane</strong>. Este es un pequeño juego de acción y aventuras en el que tendremos que explorar el mundo derrotando a enemigos.</p>
-                            
-                            <!-- Botones alineados -->
-                            <div class="d-flex justify-content-center gap-3 mt-4">
-                                <button class="btn btn-primary" data-bs-dismiss="modal">
-                                    <i class="fas fa-xmark fa-fw"></i>
-                                    CERRAR
-                                </button>
-                                <!-- Puedes añadir aquí el botón adicional -->
-                                <a href="https://github.com/Grupo03Proyectos3/Motor-Grupo3" target="_blank" class="btn btn-secondary">
-                                    <i class="fab fa-github"></i>
-                                    Ver en GitHub
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+    <!-- Portfolio Modals-->
+    <!-- Portfolio Modal 1-->
+    <!-- Portfolio Modal 1-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Portfolio Modal 2-->
-<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
-    <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-            <div class="modal-header border-0">
-                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body text-center pb-5">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">MASTERMIND</h2>
-                            <div class="divider-custom">
-                                <div class="divider-custom-line"></div>
-                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                <div class="divider-custom-line"></div>
-                            </div>
-                            <img class="img-fluid rounded mb-5" src="assets/img/portfolio/gifMasterminf.gif" alt="..." />
-                            <p class="mb-4">Juego <strong>Mastermind</strong> desarrollado para dispositivos móviles en <strong>Android Studio</strong>. Este presenta un sistema de guardado de las partidas y la posible personalización de los elementos del juego. Además se hace uso del acelerometro del disposito móvil para dotarlo de una mayor jugabilidad y el uso de anuncios como posible sistema de monetizado y notificaciones para informar al jugador.</p>
-
-                            <!-- Botones alineados -->
-                            <div class="d-flex justify-content-center gap-3 mt-4">
-                                <button class="btn btn-primary" data-bs-dismiss="modal">
-                                    <i class="fas fa-xmark fa-fw"></i>
-                                    CERRAR
-                                </button>
-                                <!-- Puedes añadir aquí el botón adicional -->
-                                <a href="https://github.com/RaulSaavedraRiera/Practica2Moviles" target="_blank" class="btn btn-secondary">
-                                    <i class="fab fa-github"></i>
-                                    Ver en GitHub
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Portfolio Modal 3-->
-<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
-    <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-            <div class="modal-header border-0">
-                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body text-center pb-5">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">SISTEMA DE DETECCIÓN DE ZONAS NO ACCESIBLES EN MAPAS 3D</h2>
-                            <div class="divider-custom">
-                                <div class="divider-custom-line"></div>
-                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                <div class="divider-custom-line"></div>
-                            </div>
-                            <img class="img-fluid rounded mb-5" src="assets/img/portfolio/TRACKER.gif" alt="..." />
-                            <p class="mb-4">Desarrollo de un sistema para comprobar la accesibilidad de las zonas de un mapa 3D a través de bots con movimiento automático desarrollado en <strong>Unity</strong>. En ella se busca comprobar la transitabilidad de terrenos o mapas de videojuegos comprobando el porcentaje de cobertura, estimando la navegabilidad de los mapas creando para ello <strong>mapas de calor</strong>.</p>
-
-                            <!-- Botones alineados -->
-                            <div class="d-flex justify-content-center gap-3 mt-4">
-                                <button class="btn btn-primary" data-bs-dismiss="modal">
-                                    <i class="fas fa-xmark fa-fw"></i>
-                                    CERRAR
-                                </button>
-                                <!-- Puedes añadir aquí el botón adicional -->
-                                <a href="https://github.com/javixxu/Tracking-System?tab=readme-ov-file" target="_blank" class="btn btn-secondary">
-                                    <i class="fab fa-github"></i>
-                                    Ver en GitHub
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Portfolio Modal 4-->
-<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
-    <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-            <div class="modal-header border-0">
-                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body text-center pb-5">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">MONKEY DELIVERY</h2>
-                            <div class="divider-custom">
-                                <div class="divider-custom-line"></div>
-                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                <div class="divider-custom-line"></div>
-                            </div>
-                            <img class="img-fluid rounded mb-5" src="assets/img/portfolio/monkeyGameplay.png" alt="..." />
-                            <p class="mb-4"><strong>Monkey Delivery</strong> es un juego desarrollado en C++ a través de la biblioteca de SDL. En él somos un pequeño mono que tendrá que ir completando repartos a los diferentes vecinos de una isla.</p>
-
-                            <!-- Botones alineados -->
-                            <div class="d-flex justify-content-center gap-3 mt-4">
-                                <button class="btn btn-primary" data-bs-dismiss="modal">
-                                    <i class="fas fa-xmark fa-fw"></i>
-                                    CERRAR
-                                </button>
-                                <!-- Puedes añadir aquí el botón adicional -->
-                                <a href="https://github.com/miggon23/MonkeyDelivery" target="_blank" class="btn btn-secondary">
-                                    <i class="fab fa-github"></i>
-                                    Ver en GitHub
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-        <!-- Portfolio Modal 5-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0">
-                        <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">BIRD SEASON</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/birdd.gif" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4"><strong>Bird Season</strong> es un juego creado en <strong>Unity</strong> haciendo uso de maquinas de estados para simular un ciclo de vida de un gorrión. En el juego tendremos que ir manipulando el clima a través de comandos de voz para crear efectos en las estaciones. Todo el audio del juego esta creado a partir de <strong>FMOD</strong>.</p>
-                                    
-                                    <!-- Botones alineados -->
-                                    <div class="d-flex justify-content-center gap-3 mt-4">
-                                        <!-- Botón Cerrar -->
-                                        <button class="btn btn-primary" data-bs-dismiss="modal">
-                                            <i class="fas fa-xmark fa-fw"></i>
-                                            CERRAR
-                                        </button>
-                                        <!-- Botón GitHub -->
-                                        <a href="https://github.com/AntonioPove/IAV23-PovedanoOrtiz" target="_blank" class="btn btn-secondary">
-                                            <i class="fab fa-github"></i>
-                                            Ver en GitHub
-                                        </a>
-                                    </div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">MOTOR FLAMINGO</h2>
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 6-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">BATTLE SHIP EN LINEA</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/ship.gif" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4"><strong>Battle Ship</strong> es un juego en línea de naves para dos jugadores desarrollado en C para sistemas Linux. En este juego tendremos que luchar contra el otro jugador hasta que solo uno de los dos quede en pie.</p>
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Eldersbane.png"
+                                    alt="..." />
+                                <p class="mb-4"><strong>Flamingo</strong> es un motor diseñado para la creación de
+                                    videojuegos en 3D. Está desarrollado con C++ y usa bibliotecas como
+                                    <strong>Ogre</strong> para el renderizado gráfico, <strong>Bullet</strong> para la
+                                    física, <strong>LUA</strong> para scripting y <strong>SDL</strong> entre otros. A
+                                    partir de este motor fue desarrollado el juego <strong>Eldersbane</strong>. Este es
+                                    un pequeño juego de acción y aventuras en el que tendremos que explorar el mundo
+                                    derrotando a enemigos.
+                                </p>
+
+                                <!-- Botones alineados -->
+                                <div class="d-flex justify-content-center gap-3 mt-4">
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         CERRAR
                                     </button>
+                                    <!-- Puedes añadir aquí el botón adicional -->
+                                    <a href="https://github.com/Grupo03Proyectos3/Motor-Grupo3" target="_blank"
+                                        class="btn btn-secondary">
+                                        <i class="fab fa-github"></i>
+                                        Ver en GitHub
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -509,38 +323,47 @@
                 </div>
             </div>
         </div>
+    </div>
 
-         <!-- Portfolio Modal 7-->
-         <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" aria-labelledby="portfolioModal8" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">LA GAMIFICACIÓN COMO HERRAMIENTA PARA FOMENTAR Y MOTIVAR LA ACTIVIDAD FÍSICA</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/191.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Desarrollo en curso de una aplicación móvil que fomenta la actividad física mediante gamificación, sensores, y geoposicionamiento. Utiliza <strong>MongoDB</strong> y  <strong>Spring Boot</strong> para la gestión de datos, y hardware externo como la pulsera <strong>EmotiBit</strong> para recopilar señales ECG y GSR, evaluando su impacto en el tiempo de ejercicio y la condición física de los usuarios. Actualmente en desarrollo.</p>
+    <!-- Portfolio Modal 2-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">MASTERMIND</h2>
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/gifMasterminf.gif"
+                                    alt="..." />
+                                <p class="mb-4">Juego <strong>Mastermind</strong> desarrollado para dispositivos móviles
+                                    en <strong>Android Studio</strong>. Este presenta un sistema de guardado de las
+                                    partidas y la posible personalización de los elementos del juego. Además se hace uso
+                                    del acelerómetro del dispositivo móvil para dotarlo de una mayor jugabilidad y el
+                                    uso de anuncios como posible sistema de monetizado y notificaciones para informar al
+                                    jugador.</p>
+
+                                <!-- Botones alineados -->
+                                <div class="d-flex justify-content-center gap-3 mt-4">
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         CERRAR
                                     </button>
- 
-                                                                            <!-- Botón GitHub -->
-                                                                            <a href="https://github.com/RaulSaavedraRiera/TFG2024-AntonioPRaulS" target="_blank" class="btn btn-secondary">
-                                                                                <i class="fab fa-github"></i>
-                                                                                Ver en GitHub
-                                                                            </a>                                   
+                                    <!-- Puedes añadir aquí el botón adicional -->
+                                    <a href="https://github.com/RaulSaavedraRiera/Practica2Moviles" target="_blank"
+                                        class="btn btn-secondary">
+                                        <i class="fab fa-github"></i>
+                                        Ver en GitHub
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -548,32 +371,47 @@
                 </div>
             </div>
         </div>
+    </div>
 
-          <!-- Portfolio Modal 7-->
-          <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" aria-labelledby="portfolioModal7" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">JUEGO MULTIPLATAFORMA PARA PS5 Y PC</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/ps5.gif" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Desarrollo de un pequeño motor para la creación de un juego compatible tanto para <strong>PC</strong> como para <strong>PS5</strong>. Desarrollo en PS5 a través de un contrato de confidecialidad. El juego desarrollado es una replica de <strong>"La Plaga Galáctica"</strong>, publicado en 1984 y desarrollado por Paco Suárez.</p>
+    <!-- Portfolio Modal 3-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">SISTEMA DE
+                                    DETECCIÓN DE ZONAS NO ACCESIBLES EN MAPAS 3D</h2>
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/TRACKER.gif" alt="..." />
+                                <p class="mb-4">Desarrollo de un sistema para comprobar la accesibilidad de las zonas de
+                                    un mapa 3D a través de bots con movimiento automático desarrollado en
+                                    <strong>Unity</strong>. En ella se busca comprobar la transitabilidad de terrenos o
+                                    mapas de videojuegos comprobando el porcentaje de cobertura, estimando la
+                                    navegabilidad de los mapas creando para ello <strong>mapas de calor</strong>.
+                                </p>
+
+                                <!-- Botones alineados -->
+                                <div class="d-flex justify-content-center gap-3 mt-4">
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         CERRAR
-                                    </button>                            
+                                    </button>
+                                    <!-- Puedes añadir aquí el botón adicional -->
+                                    <a href="https://github.com/javixxu/Tracking-System?tab=readme-ov-file"
+                                        target="_blank" class="btn btn-secondary">
+                                        <i class="fab fa-github"></i>
+                                        Ver en GitHub
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -581,14 +419,258 @@
                 </div>
             </div>
         </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+    </div>
+
+    <!-- Portfolio Modal 4-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">MONKEY DELIVERY
+                                </h2>
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/monkeyGameplay.png"
+                                    alt="..." />
+                                <p class="mb-4"><strong>Monkey Delivery</strong> es un juego desarrollado en C++ a
+                                    través de la biblioteca de SDL. En él somos un pequeño mono que tendrá que ir
+                                    completando repartos a los diferentes vecinos de una isla.</p>
+
+                                <!-- Botones alineados -->
+                                <div class="d-flex justify-content-center gap-3 mt-4">
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        CERRAR
+                                    </button>
+                                    <!-- Puedes añadir aquí el botón adicional -->
+                                    <a href="https://github.com/miggon23/MonkeyDelivery" target="_blank"
+                                        class="btn btn-secondary">
+                                        <i class="fab fa-github"></i>
+                                        Ver en GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 5-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">BIRD SEASON</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/birdd.gif" alt="..." />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4"><strong>Bird Season</strong> es un juego creado en
+                                    <strong>Unity</strong> haciendo uso de maquinas de estados para simular un ciclo de
+                                    vida de un gorrión. En el juego tendremos que ir manipulando el clima a través de
+                                    comandos de voz para crear efectos en las estaciones. Todo el audio del juego esta
+                                    creado a partir de <strong>FMOD</strong>.
+                                </p>
+
+                                <!-- Botones alineados -->
+                                <div class="d-flex justify-content-center gap-3 mt-4">
+                                    <!-- Botón Cerrar -->
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        CERRAR
+                                    </button>
+                                    <!-- Botón GitHub -->
+                                    <a href="https://github.com/AntonioPove/IAV23-PovedanoOrtiz" target="_blank"
+                                        class="btn btn-secondary">
+                                        <i class="fab fa-github"></i>
+                                        Ver en GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 6-->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">BATTLE SHIP EN
+                                    LINEA</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/ship.gif" alt="..." />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4"><strong>Battle Ship</strong> es un juego en línea de naves para dos
+                                    jugadores desarrollado en C para sistemas Linux. En este juego tendremos que luchar
+                                    contra el otro jugador hasta que solo uno de los dos quede en pie.</p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    CERRAR
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 7-->
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" aria-labelledby="portfolioModal8"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">LA GAMIFICACIÓN
+                                    COMO HERRAMIENTA PARA FOMENTAR Y MOTIVAR LA ACTIVIDAD FÍSICA</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <div class="row mb-5">
+                                    <div class="col-md-4">
+                                        <img class="img-fluid rounded" src="assets/img/portfolio/c.jpg" alt="..." />
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="img-fluid rounded"
+                                            src="assets/img/portfolio/IMG-20250527-WA0035.jpg" alt="..." />
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="img-fluid rounded"
+                                            src="assets/img/portfolio/IMG-20250527-WA0030.jpg" alt="..." />
+                                    </div>
+                                </div>
+
+
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Aplicación móvil que fomenta la actividad
+                                    física mediante gamificación, sensores y geoposicionamiento. Utiliza
+                                    <strong>MongoDB</strong> y <strong>Spring Boot</strong> para la gestión de datos, y
+                                    hardware externo como la pulsera <strong>EmotiBit</strong> para recopilar señales
+                                    ECG y GSR, evaluando su impacto en el tiempo de ejercicio y la condición física de
+                                    los usuarios.
+                                </p>
+
+                                <div class="modal-actions">
+                                    <button class="btn btn-primary" type="button" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i> Cerrar
+                                    </button>
+
+                                    <a href="https://github.com/RaulSaavedraRiera/TFG2024-AntonioPRaulS" target="_blank"
+                                        rel="noopener noreferrer" class="btn btn-secondary">
+                                        <i class="fab fa-github"></i> Ver en GitHub
+                                    </a>
+
+                                    <a href="https://docta.ucm.es/entities/publication/c492e1c8-2d82-4e3d-9217-e767a8a880b0"
+                                        target="_blank" rel="noopener noreferrer" class="btn btn-success">
+                                        <i class="fas fa-file-alt"></i> Ver publicación
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 7-->
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" aria-labelledby="portfolioModal7"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">JUEGO
+                                    MULTIPLATAFORMA PARA PS5 Y PC</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/ps5.gif" alt="..." />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Desarrollo de un pequeño motor para la creación de un juego compatible
+                                    tanto para <strong>PC</strong> como para <strong>PS5</strong>. Desarrollo en PS5 a
+                                    través de un contrato de confidecialidad. El juego desarrollado es una replica de
+                                    <strong>"La Plaga Galáctica"</strong>, publicado en 1984 y desarrollado por Paco
+                                    Suárez.
+                                </p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    CERRAR
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+</body>
+
 </html>
